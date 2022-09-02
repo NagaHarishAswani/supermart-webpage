@@ -155,7 +155,7 @@ body
 .hpart2
 {
 	width:40%;
-	padding-left:100px;
+	padding-left:10px;
 	font-size:45px;
 	color:green;
 	padding-top:25px;
@@ -170,7 +170,7 @@ body
 
 .hpart3
 {
-	width:7%;
+	width:9%;
 	float:right;
 	padding:10px;
 	background-color:green;
