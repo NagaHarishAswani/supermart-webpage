@@ -1,0 +1,103 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>milk preview</title>
+
+<script type="text/javascript">
+function check()
+{
+   var uname=document.getElementById("uname").value;
+   var pwd=document.getElementById("pwd").value;
+   
+   if(uname=='supermart' && pwd=='mart123')
+   {
+      document.getElementById("form1").action="home.html";
+   }
+   else
+   {
+      document.getElementById("err").innerHTML="Username Or Password is Incorrect";
+      return false;   <!-- in between the tags ---> innerHTML -->
+   }
+}
+
+</script>
+</head>
+
+<body>
+<div class="topheader">
+<div class="left">supermart@gmail.com</div>
+<div class="right">Instagram id : supermart_official</div>
+</div>
+
+<div class="header">
+<div class="row">
+<div class="hpart1"><img src="logo.png"></div>
+<div class="hpart2">SUPER MART</div>
+<div class="hpart3"><a href="login.html" class="login">LOGIN</a></div>
+</div>
+</div>
+
+<hr color="grey" size="10"/>
+
+<div class="bodypart">
+</br>
+
+<h1 class="sectitle">Product : Full Cream Milk</h1>
+</br>
+</br>
+  <div style="text-align:center">
+  <img src="milk.png" style="width:400px;height:300px;"></br>
+  <h2 style="color:green">Details</h2></br>
+   
+   Product Name : Milk
+   </br>
+   Company : Heritage
+   </br>
+   Capacity : 500ml
+   </br>
+   Price : 30rs</br>
+ 
+  </div>
+  
+</br></br>
+
+  <p class="note">Note : Please Login to Buy this Product  
+  
+</div>
+
+</br></br>
+
+<div class="footer">
+
+<div class="part20">
+<h1>Youtube Channel Links</h1></br></br>
+<a href="#">Mart Opening</a></br>
+<a href="#">Milk Review</a></br>
+<a href="#">Oil Review</a></br>
+<a href="#">Salt Review</a></br>
+</div>
+<div class="part20">
+<h1>Social Media Links</h1></br></br>
+<a href="#">Facebook</a></br>
+<a href="#">Instagram</a></br>
+<a href="#">Telegram</a></br>
+<a href="#">Twitter</a></br>
+</div>
+<div class="part40">
+<h1>Submit Your Request Here</h1></br>
+<form>
+
+Email :</br>
+<input type="email" class="footerform"></br>
+Request :</br>
+<textarea rows="10" cols="44"></textarea></br>
+
+<input type="submit" class="footerform btn" value="Submit"> <!-- 2 classes given -->
+
+</form>
+</div>
+
+</div>
+
+</body>
+</html>

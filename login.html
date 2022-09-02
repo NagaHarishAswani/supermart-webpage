@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>Website Creation</title>
+
+<script type="text/javascript">
+function check()
+{
+   var uname=document.getElementById("uname").value;
+   var pwd=document.getElementById("pwd").value;
+   
+   if(uname=='supermart' && pwd=='mart123')
+   {
+      document.getElementById("form1").action="home.html";
+   }
+   else
+   {
+      document.getElementById("err").innerHTML="Username Or Password is Incorrect";
+      return false;   <!-- in between the tags ---> innerHTML -->
+   }
+}
+
+</script>
+</head>
+
+<body>
+<div class="topheader">
+<div class="left">supermart@gmail.com</div>
+<div class="right">Instagram id : supermart_official</div>
+</div>
+
+<div class="header">
+<div class="row">
+<div class="hpart1"><img src="logo.png"></div>
+<div class="hpart2">SUPER MART</div>
+<div class="hpart3"><a href="login.html" class="login">LOGIN</a></div>
+</div>
+</div>
+
+<hr color="grey" size="10"/>
+
+<div class="bodypart">
+</br>
+
+<h1 class="sectitle">LOGIN FORM</h1>
+</br>
+</br>
+  <form  id="form1" name="form1" class="loginform" onsubmit="return check()">
+  
+  Username : <input type="text" id="uname" name="uname" value=""></br></br>
+  Password : <input type="password" id="pwd" name="pwd" value=""></br></br>
+  <input type="submit" value="LOGIN" class="loginbtn"></br>
+  
+  </form>
+  
+  <div id="err" style="color:red;text-align:center;"></div>
+  
+</div>
+</div>
+
+</br></br>
+
+<div class="footer">
+
+<div class="part20">
+<h1>Youtube Channel Links</h1></br></br>
+<a href="#">Mart Opening</a></br>
+<a href="#">Milk Review</a></br>
+<a href="#">Oil Review</a></br>
+<a href="#">Salt Review</a></br>
+</div>
+<div class="part20">
+<h1>Social Media Links</h1></br></br>
+<a href="#">Facebook</a></br>
+<a href="#">Instagram</a></br>
+<a href="#">Telegram</a></br>
+<a href="#">Twitter</a></br>
+</div>
+<div class="part40">
+<h1>Submit Your Request Here</h1></br>
+<form>
+
+Email :</br>
+<input type="email" class="footerform"></br>
+Request :</br>
+<textarea rows="10" cols="44"></textarea></br>
+
+<input type="submit" class="footerform btn" value="Submit"> <!-- 2 classes given -->
+
+</form>
+</div>
+
+</div>
+
+</body>
+</html>

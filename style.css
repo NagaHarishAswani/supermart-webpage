@@ -1,0 +1,269 @@
+*{         /*  '*' - refers to all. Saying that By default dont take any margin and padding */
+margin:0px;
+padding:0px;
+font-family: 'EB Garamond', serif; /* Search in Google Fonts in net*/
+font-weight:bold;	
+}
+
+body
+{
+ 	
+}
+
+.topheader  /* For applying style to class we use '.' and for id we use '#'*/
+{
+	height:35px;
+	background-color:grey;
+	font-size:20px;
+	color:white;
+	padding:8px;
+}
+
+/* For look purpose add height and see and remove */
+
+.header
+{
+	height:120px;
+	background-color:white;
+	font-size:22px;
+}
+
+.row  /* Saying that occupy 100% */
+{
+	width:100%;
+}
+
+.header img
+{
+	width:120px;
+	height:120px;
+}
+
+.menubar
+{
+	height:40px;
+	background-color:lightgrey;
+	font-size:22px;
+}
+
+.bodypart
+{
+	height:auto;
+	width:100%;
+	background-color:white;
+	font-size:22px;
+}
+
+.footer
+{
+	height:300px;
+	background-color:black;
+	font-size:11px;
+	color:yellow;
+	padding:30px;
+}
+
+.part20
+{
+	width:25%;
+	float:left;
+	margin-right:30px;
+}
+
+.footerform
+{
+	width:370px;
+}
+
+.btn
+{
+	background-color:grey;
+	color:white;
+}
+
+.loginbtn
+{
+	width:135px;
+	font-size:23px;
+}
+
+.part20 a
+{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+
+.part40
+{
+	width:40%;
+	float:right;
+}
+
+.loginform
+{
+	width:28%;
+	margin:0 auto auto;
+    /* border:1px solid green;   --> To see width occupy */ 
+	text-align:center;
+	font-size:23px;
+	margin-bottom:30px;
+}
+
+.buy
+{
+	background-color:green;
+	color:white;
+	text-align:center;
+	margin-top:10px;
+	width:85px;
+	padding:3px;
+	font-size:22px;
+	border-radius:10px;
+}
+
+.buy:hover
+{
+	background-color:orange;
+}
+
+.note
+{
+	background-color:yellow;
+	color:red;
+	text-align:center;
+	border:1px dashed red;
+	padding:10px;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.hpart1
+{
+	width:9%;
+	float:left;
+}
+
+.hpart2
+{
+	width:40%;
+	padding-left:450px;
+	font-size:45px;
+	color:green;
+	padding-top:25px;
+	float:left;
+}
+
+.login
+{
+	text-decoration:none;
+	color:white;
+}
+
+.hpart3
+{
+	width:7%;
+	float:right;
+	padding:10px;
+	background-color:green;
+	text-align:center;
+	margin-right:100px;
+	margin-top:35px;
+	border-radius:10px;
+}
+
+.hpart3:hover
+{
+	background-color:orange;
+}
+
+.menubar ul
+{
+	width:100%;
+	list-style-type:none;
+}
+
+.menubar ul li
+{
+	float:left;
+}
+
+.menubar ul li a
+{
+	display:block; /* Occupy whole parent */
+	text-decoration:none;
+	color:black;
+	padding:10px;
+	font-size:18px;
+	font-weight:bold;
+	font-family:'Arial';
+	padding-right:70px;
+	padding-left:70px;
+}
+
+.menubar ul li a:hover
+{
+	background-color:yellow;
+	color:red;
+}
+
+.sectitle
+{
+	text-align:center;
+	color:red;
+}
+
+.products
+{
+	width:80%;
+	margin:0 auto auto;
+}
+
+.productdiv
+{
+	width:20%;
+	border:1px solid lightgrey;
+	box-shadow:3px 6px red;
+	height:300px;
+	border-radius:10px;	/* for Rounded corners */
+    float:left;
+	margin:1% 4%;
+	text-align:center;
+}
+
+.productdiv img
+{
+	width:100%;
+    border-radius:10px;	/* Saying to occupy only upto division */
+    margin-top:10px;
+}
+
+.productdiv a
+{
+	text-decoration:none;
+	font-size:25px;
+	color:darkred;
+	padding:5px;
+}
+
+.branches marquee
+{
+	font-size:30px;
+	background-color:yellow;
+	color:green;
+}
+
+.about
+{
+	width:80%;
+	margin:0 auto auto;
+	text-align:center;
+}
