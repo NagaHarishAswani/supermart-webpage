@@ -179,7 +179,17 @@ body
 	margin-top:35px;
 	border-radius:10px;
 }
-
+.logout
+{
+	width:11%;
+	float:right;
+	padding:10px;
+	background-color:red;
+	text-align:center;
+	margin-right:100px;
+	margin-top:35px;
+	border-radius:10px;
+}
 .hpart3:hover
 {
 	background-color:orange;
